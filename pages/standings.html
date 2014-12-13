@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Final project for MAD9013">
+    <meta name="author" content="Vladimir Tonkonogov">
+
+    <title>World's Cableway Racing League</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- My CSS -->
+    <link href="../css/main.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <script src="//use.edgefonts.net/questrial;quantico;prosto-one.js"></script>
+
+</head>
+
+<body>
+
+    <div class="header-nonbs standings hidden-xs">
+        <div class="league">World's Cableway Racing League</div>
+        <div class="address-bar">17 Carling Avenue | Ottawa, ON K1A 0E9 | 613.111.2233</div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            
+            <div class="navbar-header visible-xs">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                <a class="navbar-league text-uppercase" href="index.html">Cableway Racing League</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav text-uppercase">
+                    <li>
+                        <a href="../index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="standings.html">Standings</a>
+                    </li>
+                    <li>
+                        <a href="locations.html">Locations</a>
+                    </li>
+                    <li>
+                        <a href="signup.html">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+        
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="box text-center">
+                <table class="table table-hover">
+        <thead>
+            <hr>
+            <h2 class="intro-text">
+                        <strong>Local Races</strong>
+                    </h2>
+            <hr>
+            <tr>
+                <th class="text-center">#</th>
+                <th class="text-center">GAME</th>
+                <th class="text-center">PLACE</th>
+                <th class="text-center">SCORE</th>
+                <th class="text-center">RUNS</th>
+                <th class="text-center">POINTS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="text-center">7</th>
+                <td>DANCE OF THE FOREST</td>
+                <td>7</td>
+                <td>9</td>
+                <td>2</td>
+                <td>19.4</td>
+            </tr>
+            <tr>
+                <th class="text-center">6</th>
+                <td>RACING ON THE STREETS</td>
+                <td>3</td>
+                <td>4</td>
+                <td>1</td>
+                <td>12.7</td>
+            </tr>
+            <tr>
+                <th class="text-center">5</th>
+                <td>INDEPENDENT SUMMITS</td>
+                <td>2</td>
+                <td>6</td>
+                <td>2</td>
+                <td>33.5</td>
+            </tr>
+            <tr>
+                <th class="text-center">4</th>
+                <td>WHATEVER FRIEND YOU CHOOSE</td>
+                <td>1</td>
+                <td>9</td>
+                <td>4</td>
+                <td>27.4</td>
+            </tr>
+            <tr>
+                <th class="text-center">3</th>
+                <td>IN BETWEEN OBSTACLES</td>
+                <td>29</td>
+                <td>12</td>
+                <td>1</td>
+                <td>14.6</td>
+            </tr>
+            <tr>
+                <th class="text-center">2</th>
+                <td>AFRAID OF NO ONE</td>
+                <td>26</td>
+                <td>15</td>
+                <td>2</td>
+                <td>21.2</td>
+            </tr>
+            <tr>
+                <th class="text-center">1</th>
+                <td>RELENTLESS 7</td>
+                <td>22</td>
+                <td>19</td>
+                <td>1</td>
+                <td>17.9</td>
+            </tr>
+            <tr>
+                <th class="text-center">0</th>
+                <td>FREE FALL</td>
+                <td>15</td>
+                <td>19</td>
+                <td>5</td>
+                <td>23.5</td>
+            </tr>
+        </tbody>
+    </table>
+                 <table class="table table-hover">
+        <thead>
+            <hr>
+            <h2 class="intro-text">
+                        <strong>Domestic Competitions</strong>
+                    </h2>
+            <hr>
+            <tr>
+                <th class="text-center">#</th>
+                <th class="text-center">GAME</th>
+                <th class="text-center">PLACE</th>
+                <th class="text-center">SCORE</th>
+                <th class="text-center">RUNS</th>
+                <th class="text-center">POINTS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="text-center">7</th>
+                <td>RUN FOR THE TOP</td>
+                <td>41</td>
+                <td>0</td>
+                <td>2</td>
+                <td>43</td>
+            </tr>
+            <tr>
+                <th class="text-center">6</th>
+                <td>RACE OR DIE</td>
+                <td>40</td>
+                <td>4</td>
+                <td>1</td>
+                <td>41</td>
+            </tr>
+            <tr>
+                <th class="text-center">5</th>
+                <td>TRY OR FLY</td>
+                <td>37</td>
+                <td>6</td>
+                <td>2</td>
+                <td>39</td>
+            </tr>
+            <tr>
+                <th class="text-center">4</th>
+                <td>NO RULES APPLY</td>
+                <td>32</td>
+                <td>9</td>
+                <td>4</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <th class="text-center">3</th>
+                <td>GET OUT AND ABOUT</td>
+                <td>29</td>
+                <td>12</td>
+                <td>1</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <th class="text-center">2</th>
+                <td>NO MORE MR NICE CABLERACER</td>
+                <td>26</td>
+                <td>15</td>
+                <td>2</td>
+                <td>28</td>
+            </tr>
+            <tr>
+                <th class="text-center">1</th>
+                <td>SNOWLESS UPHILL RUN</td>
+                <td>22</td>
+                <td>19</td>
+                <td>1</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <th class="text-center">0</th>
+                <td>POINT OF NO RETURN</td>
+                <td>15</td>
+                <td>19</td>
+                <td>5</td>
+                <td>20</td>
+            </tr>
+        </tbody>
+    </table>
+     <table class="table table-hover">
+        <thead>
+            <hr>
+            <h2 class="intro-text">
+                        <strong>International Championships</strong>
+                    </h2>
+            <hr>
+            <tr>
+                <th class="text-center">#</th>
+                <th class="text-center">GAME</th>
+                <th class="text-center">PLACE</th>
+                <th class="text-center">SCORE</th>
+                <th class="text-center">RUNS</th>
+                <th class="text-center">POINTS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="text-center">7</th>
+                <td>FIVE MINUTES FROM THE POLE</td>
+                <td>39</td>
+                <td>2</td>
+                <td>2</td>
+                <td>41</td>
+            </tr>
+            <tr>
+                <th class="text-center">6</th>
+                <td>OVER THE POND</td>
+                <td>37</td>
+                <td>3</td>
+                <td>3</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <th class="text-center">5</th>
+                <td>THE GREAT SILK CABLEWAY</td>
+                <td>30</td>
+                <td>9</td>
+                <td>2</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <th class="text-center">4</th>
+                <td>AMERICAN EXPRESS</td>
+                <td>29</td>
+                <td>11</td>
+                <td>2</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <th class="text-center">3</th>
+                <td>NORTHERN UPRISAL</td>
+                <td>23</td>
+                <td>15</td>
+                <td>3</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <th class="text-center">2</th>
+                <td>NO CABLES FOR THE TIE-IN</td>
+                <td>18</td>
+                <td>19</td>
+                <td>5</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <th class="text-center">1</th>
+                <td>IMPLAUSIBLE BATTLE</td>
+                <td>16</td>
+                <td>23</td>
+                <td>2</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <th class="text-center">0</th>
+                <td>THE PENULTIMATE CONUNDRUM</td>
+                <td>13</td>
+                <td>33</td>
+                <td>4</td>
+                <td>17</td>
+            </tr>
+        </tbody>
+    </table>
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text">About
+                        <strong>Ottawa's Cableway Racing League</strong>
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-responsive img-border-left" src="../img/slide-2.jpg" alt="">
+                    <picture>
+                    <!--Image downloaded from http://picjumbo.com/wp-content/uploads/IMG_7443-1300x866.jpg and downsized in Adobe Lightroom 5-->
+<!--
+                        <source
+                            media="(max-width: 320px)"
+                            srcset="../img/John_256.jpg">
+                        <source
+                            media="(max-width: 479px)"
+                            srcset="../img/John_512.jpg">
+                        <source
+                            media="(max-width: 767px)"
+                            srcset="../img/John_1024.jpg">
+                        <source
+                            media="(max-width: 991px)"
+                            srcset="../img/John_256.jpg">
+                        <source
+                            media="(max-width: 1199px)"
+                            srcset="../img/John_512.jpg">
+                        <source
+                            media="(min-width: 1200px)"
+                            srcset="../img/John_512.jpg">
+                        <img
+                            src="../img/John_1024.jpg"
+                            alt="John Lucoth">
+                    </picture>
+-->
+                </div>
+                <div class="col-md-6 text-left">
+                    <p class="text-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                    <p class="text-right">Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets.</p>
+                    <p class="text-right">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Our
+                        <strong>Core Team</strong>
+                    </h2>
+                    <h2 class="intro-text text-center">The ones that started it all!</h2>
+                    <hr>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <picture>
+                    <!--Image downloaded from http://picjumbo.com/wp-content/uploads/IMG_7443-1300x866.jpg and downsized in Adobe Lightroom 5-->
+                        <source
+                            media="(max-width: 320px)"
+                            srcset="../img/John_256.jpg">
+                        <source
+                            media="(max-width: 479px)"
+                            srcset="../img/John_512.jpg">
+                        <source
+                            media="(max-width: 767px)"
+                            srcset="../img/John_1024.jpg">
+                        <source
+                            media="(max-width: 991px)"
+                            srcset="../img/John_256.jpg">
+                        <source
+                            media="(max-width: 1199px)"
+                            srcset="../img/John_512.jpg">
+                        <source
+                            media="(min-width: 1200px)"
+                            srcset="../img/John_512.jpg">
+                        <img
+                            src="../img/John_1024.jpg"
+                            alt="John Lucoth">
+                    </picture>
+                    <h3>John Lucoth<br>
+                        <small>1st Cabin Racer</small>
+                    </h3>
+                    <p class="text-left"><small>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</small></p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <picture>
+                    <!--Image downloaded from http://picjumbo.com/wp-content/uploads/IMG_9288-1300x866.jpg and downsized in Adobe Lightroom 5-->
+                        <source
+                            media="(max-width: 320px)"
+                            srcset="../img/Mark_256.jpg">
+                        <source
+                            media="(max-width: 479px)"
+                            srcset="../img/Mark_512.jpg">
+                        <source
+                            media="(max-width: 767px)"
+                            srcset="../img/Mark_1024.jpg">
+                        <source
+                            media="(max-width: 991px)"
+                            srcset="../img/Mark_256.jpg">
+                        <source
+                            media="(max-width: 1199px)"
+                            srcset="../img/Mark_512.jpg">
+                        <source
+                            media="(min-width: 1200px)"
+                            srcset="../img/Mark_512.jpg">
+                        <img
+                            src="../img/Mark_1024.jpg"
+                            alt="Mark Sethengore">
+                    </picture>
+                    <h3>Mark Sethengore<br>
+                        <small>2nd Cabin Racer</small>
+                    </h3>
+                    <p><small>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</small></p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <picture>
+                    <!--Image downloaded from http://picjumbo.com/wp-content/uploads/HNCK2447-1300x866.jpg and downsized in Adobe Lightroom 5-->
+                        <source
+                            media="(max-width: 320px)"
+                            srcset="../img/Bella_256.jpg">
+                        <source
+                            media="(max-width: 479px)"
+                            srcset="../img/Bella_512.jpg">
+                        <source
+                            media="(max-width: 767px)"
+                            srcset="../img/Bella_1024.jpg">
+                        <source
+                            media="(max-width: 991px)"
+                            srcset="../img/Bella_256.jpg">
+                        <source
+                            media="(max-width: 1199px)"
+                            srcset="../img/Bella_512.jpg">
+                        <source
+                            media="(min-width: 1200px)"
+                            srcset="../img/Bella_512.jpg">
+                        <img
+                            src="../img/Bella_1024.jpg"
+                            alt="Bella Dale">
+                    </picture>
+                    <h3>Bella Dale<br>
+                        <small>3rd Cabin Racer</small>
+                    </h3>
+                    <p class="text-right"><small>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</small></p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; A No-Go Productions 2014</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

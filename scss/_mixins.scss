@@ -1,0 +1,47 @@
+//---------------------------------------------
+//              MIXINS & EXTENSIONS
+//---------------------------------------------
+
+//---------------------------------------------
+//              Pages mixin
+//---------------------------------------------
+
+@mixin pages {
+    .home, .standings,
+    .locations, .signup {
+        @content;
+    }
+}
+
+//---------------------------------------------
+//              All h tags mixin
+//---------------------------------------------
+
+@mixin headings {
+    h1, h2, h3,
+    h4, h5, h6 {
+        @content;
+    }
+}
+
+//---------------------------------------------
+//              Vendor prefix mixin
+//---------------------------------------------
+
+@mixin vendorize($property, $value) {
+	-webkit-#{$property}: $value;
+	-moz-#{$property}: $value;
+	-ms-#{$property}: $value;
+	-o-#{$property}: $value;
+	#{$property}: $value;
+}
+
+//---------------------------------------------
+//              Opacity mixin
+//---------------------------------------------
+
+@mixin opacity($opacity) {
+    opacity: $opacity;
+    filter: alpha(opacity=($opacity * 100));
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=" + ($opacity * 100);
+ }
